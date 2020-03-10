@@ -7,6 +7,7 @@
  */
 public class pruebas
 {
+    
     public static int paraProbar(int x)
     {
         if(x<4)
