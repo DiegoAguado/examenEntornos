@@ -13,10 +13,12 @@ public interface doc
    public abstract String obtenerLinea(int x, String file);
    
    /**
-    * Devuelve la posición geográfica (altitud y latitud)
+    * Resumen: este método devuelve la posición geográfica (altitud y latitud)
     * según el nombre de la calle.
-    * @param una cadena con el nombre de la calle.
-    * @return dos enteros: altitud y latitud.
+    * Entrada: una cadena con el nombre de la calle.
+    * Salida: dos numeros con decimales: altitud y latitud.
+    * Precondición: el nombre de la calle tiene que ser una cadena.
+    * Postcondición: la localización de la calle mediante coordenadas (numeros )
     */
    public abstract String obtenerLocalizacion(String calle);
 }
